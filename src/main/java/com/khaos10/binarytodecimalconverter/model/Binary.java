@@ -1,4 +1,4 @@
-package com.khaos10.binarytodecimalconverter.domains;
+package com.khaos10.binarytodecimalconverter.model;
 
 public class Binary {
 
@@ -7,7 +7,7 @@ public class Binary {
     public Binary(String binary) {
         this.binary = binary;
     }
-    
+
     public String getBinary() {
         return binary;
     }
